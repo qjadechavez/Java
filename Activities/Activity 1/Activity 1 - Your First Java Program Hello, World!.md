@@ -1,7 +1,7 @@
-# **Objective:**  
+# Objective:  
 Learn how to create, compile, and run a basic Java program that prints a message to the screen.  
   
-# **Instructions:**  
+# Instructions:  
 - Open your preferred IDE (e.g., Eclipse, IntelliJ, or VS Code).  
 - Create a file named HelloWorld.java  
 - Print "Hello, World!";  
@@ -9,9 +9,13 @@ Learn how to create, compile, and run a basic Java program that prints a message
   
 Run the program and observe the output.  
   
-# **Sample Output:**  
-Hello, World!  
-Hello, I am John Doe!
+# Sample Output:  
+> Hello, World!  
+> Hello, I am John Doe!
+
+
+---
+
 
 **HelloWorld.java**
 ```
@@ -29,3 +33,18 @@ public class HelloWorld {
 
 }
 ```
+
+**GreetHandler.java**
+```
+public class GreetHandler {
+
+    public void sayHello(String name) {
+
+        System.out.print("Hello, I am " + name + "!");
+
+    }
+
+}
+```
+
+![[BigONotation.jpg|500]]
