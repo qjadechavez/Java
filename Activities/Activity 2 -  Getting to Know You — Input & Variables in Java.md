@@ -1,21 +1,3 @@
-**Instructions:** 
-1. Create a new Java class file named UserIntroduction.java.  
-2. Complete the TODOs to:  
-
-	- Accept name, age, and favorite hobby
-	- Store them in variables
-	- Print a short introduction using the input
-
-**Sample output:**  
-What is your name?   
-user input: **Alex**  
-How old are you?   
-user input: **18**  
-What is your favorite hobby?   
-user input: **Drawing**
-
-Nice to meet you, Alex!  
-You are 18 years old and love Drawing.
 
 # Objective:  
 Learn how to use variables and the Scanner class to accept input from the user and display personalized output.  
@@ -37,3 +19,5 @@ Learn how to use variables and the Scanner class to accept input from the user a
 > Nice to meet you, Alex!  
 > You are 18 years old and love Drawing.
 
+
+---
