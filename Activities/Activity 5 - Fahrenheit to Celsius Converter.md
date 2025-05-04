@@ -1,50 +1,74 @@
 # Objective:  
-Understand how to use the modulo operator (%) and if-else statements in Java to determine if a number is or.
+Learn how to apply mathematical formulas in Java using variables and user input.
 # Instructions:  
-1. Create a Java class named **OddOrEvenChecker**.  
-2. In the main method:
-	- Ask the user to input an integer.
-	- Store the number in a variable.
-	- Use an if-else statement to check if the number is or .
-	- A number is **even**  if number % 2 == 0
-	- Otherwise, it is **odd**
+1. Create a Java class named FahrenheitToCelsius.  
+2. In your main method:
+	- Ask the user to input a temperature in Fahrenheit.
+	- Convert it to **Celsius** using the formula : **Celsius=(Fahrenheit−32) * 5 / 9**​
 
-3. Print whether the number is odd or even.
+3. Display the result to 2 decimal places.
 # Sample Output:  
-> **Sample Output 1:**  
-> Enter a number: 12  
-> 12 is even.  
-  
-> **Sample Output 2:**  
-> Enter a number: 7  
-> 7 is odd.
+> Enter temperature in Fahrenheit: 98.6  
+> Temperature in Celsius: 37.00°C
 
 # Source Code:  
-OddOrEvenChecker.java
+FahrenheitToCelsius.java
 ```
 import java.util.Scanner;
 
-public class OddOrEvenChecker {
+public class FahrenheitToCelsius {
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
-        
-        if (isEven(number)) {
-            System.out.println(number + " is even.");
-        } else {
-            System.out.println(number + " is odd.");
-        }
-        
-    }
+        try {
+            
+            System.out.print("Enter temperature in Fahrenheit: ");
+            double fahrenheit = scanner.nextDouble();
 
-    public static boolean isEven(int num) {
-        return num % 2 == 0;
+            CalculateHandler calculateHandler = new CalculateHandler(fahrenheit);
+
+            double celsius = calculateHandler.convertToCelsius();
+            System.out.printf("Temperature in Celsius: %.2f°C", celsius);
+        
+        } catch (IllegalArgumentException e) {
+            System.out.println("Computation error: " + e.getMessage());
+        } catch (Exception e) {
+            System.out.println("Input error: please enter a valid measurments.");
+        } finally {
+            scanner.close();
+        }
+
     }
 }
 ```
 
-# Time and Space Complexity: 
+CalculateHandler.java
+```
+public class CalculateHandler {
+
+    private double fahrenheit;
+
+    // Constructor
+    public CalculateHandler(double fahrenheit) {
+        this.fahrenheit = fahrenheit;
+    }
+
+
+    //This method convert Fahrenheit to Celsius and throws an IllegalArgumentException if the temperature is below absolute zero
+   
+    public double convertToCelsius() {
+
+        if (fahrenheit < -459.67) {
+            throw new IllegalArgumentException("Temperature below absolute zero is not possible.");
+        }
+
+        return (fahrenheit - 32) * 5 / 9;
+    }
+    
+}
+```
+
+Time and Space Complexity: 
 ![[BigONotation.jpg|500|]]
