@@ -1,6 +1,5 @@
 # Objective:  
 Use basic arithmetic operators in Java to calculate the using the formula:  Area = length × width
-  
 # Instructions:  
 1. Create a Java class named **RectangleAreaCalculator**.  
 2. In the main method:

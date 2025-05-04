@@ -1,6 +1,5 @@
 # Objective:  
 Practice using variables and arithmetic operators (+, -, , /, %) to solve simple math problems using Java. 
-  
 # Instructions:  
 1. Create a new Java class named **SimpleCalculator**.  
 2. In your main method:

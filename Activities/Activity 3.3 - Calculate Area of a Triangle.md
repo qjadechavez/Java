@@ -1,6 +1,5 @@
 # Objective:  
-Use arithmetic operators to calculate the area of a triangle using the formula:  Area = (1/2) ​× base × height
-  
+Use arithmetic operators to calculate the area of a triangle using the formula:  Area = (1/2) ​× base × height.
 # Instructions:  
 1. Create a Java class named **TriangleAreaCalculator**.  
 2. In the main method:

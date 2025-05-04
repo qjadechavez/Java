@@ -1,6 +1,5 @@
 # Objective:  
 Apply the formula for the :  **Area = π x r^2** , Where is the radius of the circle. 
-  
 # Instructions:  
 1. Create a Java class named CircleAreaCalculator. In your main method:
 	- Ask the user to input the of the circle.

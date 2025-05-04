@@ -1,7 +1,6 @@
 
 # Objective:  
 Learn how to use variables and the Scanner class to accept input from the user and display personalized output.  
-  
 # Instructions:  
 1. Create a new Java class file named UserIntroduction.java.  
 2. Complete the TODOs to:  
