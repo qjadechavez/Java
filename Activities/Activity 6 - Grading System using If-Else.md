@@ -50,29 +50,34 @@ public class GradingSystem {
 }
 ```
 
-CalculateHandler.java
+CalculateGrade.java
 ```
-public class CalculateHandler {
+public class CalculateGrade {
 
-    private double fahrenheit;
+    private double score;
 
-    // Constructor
-    public CalculateHandler(double fahrenheit) {
-        this.fahrenheit = fahrenheit;
+    public CalculateGrade(double score) {
+        this.score = score;
     }
 
+    public char getGrade() {
 
-    //This method convert Fahrenheit to Celsius and throws an IllegalArgumentException if the temperature is below absolute zero
-   
-    public double convertToCelsius() {
-
-        if (fahrenheit < -459.67) {
-            throw new IllegalArgumentException("Temperature below absolute zero is not possible.");
+        if (score < 0 || score > 100) {
+            throw new IllegalArgumentException("Score must be between 0 and 100.");
         }
 
-        return (fahrenheit - 32) * 5 / 9;
+        if (score >= 90) {
+            return 'A';
+        } else if (score >= 80) {
+            return 'B';
+        } else if (score >= 70) {
+            return 'C';
+        } else if (score >= 60) {
+            return 'D';
+        } else {
+            return 'F';
+        }
     }
-    
 }
 ```
 
