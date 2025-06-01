@@ -5,7 +5,7 @@ Use if-else statements and logical comparisons to determine the among three user
 2. In the main method:
 	- Ask the user to input .
 	- Use conditional statements (if, else if, else) to compare the numbers.
-	- Print which number is the .
+	- Print which number is the.
 	- Handle cases where two or all numbers are equal.
 # Sample Output:  
 > Enter first number: 45  
