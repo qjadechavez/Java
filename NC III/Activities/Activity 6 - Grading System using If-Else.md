@@ -81,5 +81,5 @@ public class CalculateGrade {
 }
 ```
 
-Time and Space Complexity: 
-![[BigONotation.jpg|500|]]
+# Time and Space Complexity: 
+![[BigOChart.png|500|]]
