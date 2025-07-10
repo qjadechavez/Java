@@ -69,4 +69,4 @@ public class RectangleHandler {
 ```
 
 # Time and Space Complexity: 
-![[BigONotation.jpg|500|]]
+![[BigOChart.png|500|]]
