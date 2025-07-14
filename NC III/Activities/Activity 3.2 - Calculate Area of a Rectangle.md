@@ -70,3 +70,8 @@ public class RectangleHandler {
 
 # Time and Space Complexity: 
 ![[BigOChart.png|500|]]
+
+
+[[Activity 3.1 - Calculate Area of a Circle| << Previous]] | [[Activity 3.3 - Calculate Area of a Triangle|Next >>]]
+
+

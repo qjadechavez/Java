@@ -65,3 +65,5 @@ public class CalculateHandler {
 
 # Time and Space Complexity: 
 ![[BigOChart.png|500|]]
+
+[[Activity 3.2 - Calculate Area of a Rectangle]]
