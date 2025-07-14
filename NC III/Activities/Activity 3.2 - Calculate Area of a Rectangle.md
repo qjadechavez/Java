@@ -72,6 +72,7 @@ public class RectangleHandler {
 ![[BigOChart.png|500|]]
 
 
-[[Activity 3.1 - Calculate Area of a Circle| << Previous]] | [[Activity 3.3 - Calculate Area of a Triangle|Next >>]]
+[[Activity 3.3 - Calculate Area of a Triangle|[Activity 3.3 - Calculate Area of a Triangle] >>]]
+
 
 

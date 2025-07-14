@@ -73,4 +73,7 @@ public class IntroductionHandler {
 # Time and Space Complexity: 
 ![[BigOChart.png]]
 
-[[Activity 3 - Lets Do the Math — Basic Arithmetic in Java]]
+[[Activity 3 - Getting to Know You — Input & Variables in Java |[Activity 3 - Getting to Know You — Input & Variables in Java] >> ]]
+
+
+
